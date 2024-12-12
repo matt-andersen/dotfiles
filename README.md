@@ -1,10 +1,17 @@
 # dotfiles
 
 Add Git aliases: 
+
+1. Add the following to your ~/.bashrc:
 ```
-curl -k https://raw.githubusercontent.com/matt-andersen/dotfiles/refs/heads/main/bashrc.sh -o /tmp/bashrc.sh &&
-  sh /tmp/bashrc.sh &&
-  rm -f /tmp/bashrc.sh &&
+if [ -f ~/.bash_profile ]; then
+    source ~/.bash_profile
+fi
+```
+
+2. Download the bash profile:
+```
+curl -k https://raw.githubusercontent.com/matt-andersen/dotfiles/refs/heads/main/bash_profile -o ~/.bash_profile &&
   source ~/.bashrc &&
-  cat ~/.bashrc
+  cat ~/.bash_profile
 ```
