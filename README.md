@@ -14,7 +14,7 @@ fi
 
 3. Download the bash profile:
 ```
-curl -k https://raw.githubusercontent.com/matt-andersen/dotfiles/refs/heads/main/bash_profile -o ~/.bash_profile &&
+curl https://raw.githubusercontent.com/matt-andersen/dotfiles/refs/heads/main/bash_profile -o ~/.bash_profile &&
   source ~/.bashrc &&
   cat ~/.bash_profile
 ```
