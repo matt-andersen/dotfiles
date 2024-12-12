@@ -1,7 +1,5 @@
 # dotfiles
 
-Add Git aliases: 
-
 1. Open your .bashrc file:
 ```
 vim ~/.bashrc
