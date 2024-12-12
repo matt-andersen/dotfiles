@@ -1,3 +1,7 @@
+# Other aliases
+alias ll='ls -l'
+
+# Git aliases
 alias gst='git status'
 alias gaa='git add -A'
 alias gcm='git commit -m'
