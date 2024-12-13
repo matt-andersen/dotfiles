@@ -14,7 +14,7 @@ if [ -f ~/.zprofile ]; then
 fi
 ```
 
-3. Download the aliases:
+3. Download the profile:
 ```
 curl -v -H "Cache-Control: no-cache" https://raw.githubusercontent.com/matt-andersen/dotfiles/refs/heads/main/profile -o ~/.zprofile &&
   source ~/.zshrc &&
@@ -35,7 +35,7 @@ if [ -f ~/.bash_profile ]; then
 fi
 ```
 
-3. Download the bash profile:
+1. Download the profile:
 ```
 curl -v -H "Cache-Control: no-cache" https://raw.githubusercontent.com/matt-andersen/dotfiles/refs/heads/main/profile -o ~/.bash_profile &&
   source ~/.bashrc &&
