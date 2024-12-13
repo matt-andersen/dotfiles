@@ -7,7 +7,7 @@
 vim ~/.zshrc
 ```
 
-2. Add the following to your .bashrc:
+2. Add the following to your .zshrc:
 ```
 if [ -f ~/.zprofile ]; then
     source ~/.zprofile
@@ -17,8 +17,8 @@ fi
 3. Download the aliases:
 ```
 curl -v -H "Cache-Control: no-cache" https://raw.githubusercontent.com/matt-andersen/dotfiles/refs/heads/main/profile -o ~/.zprofile &&
-  source ~/.bashrc &&
-  cat ~/.bash_profile
+  source ~/.zshrc &&
+  cat ~/.zprofile
 ```
 
 ## Linux Setup
@@ -37,7 +37,7 @@ fi
 
 3. Download the bash profile:
 ```
-curl -v -H "Cache-Control: no-cache" https://raw.githubusercontent.com/matt-andersen/dotfiles/refs/heads/main/bash_profile -o ~/.bash_profile &&
+curl -v -H "Cache-Control: no-cache" https://raw.githubusercontent.com/matt-andersen/dotfiles/refs/heads/main/profile -o ~/.bash_profile &&
   source ~/.bashrc &&
   cat ~/.bash_profile
 ```
