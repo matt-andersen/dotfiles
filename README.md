@@ -16,7 +16,7 @@ fi
 
 3. Download the profile:
 ```
-curl -v -H "Cache-Control: no-cache" https://raw.githubusercontent.com/matt-andersen/dotfiles/refs/heads/main/profile -o ~/.zprofile &&
+curl -v -H "Cache-Control: no-cache" https://raw.githubusercontent.com/matt-andersen/dotfiles/refs/heads/main/zprofile -o ~/.zprofile &&
   source ~/.zshrc &&
   cat ~/.zprofile
 ```
@@ -37,7 +37,7 @@ fi
 
 1. Download the profile:
 ```
-curl -v -H "Cache-Control: no-cache" https://raw.githubusercontent.com/matt-andersen/dotfiles/refs/heads/main/profile -o ~/.bash_profile &&
+curl -v -H "Cache-Control: no-cache" https://raw.githubusercontent.com/matt-andersen/dotfiles/refs/heads/main/bash_profile -o ~/.bash_profile &&
   source ~/.bashrc &&
   cat ~/.bash_profile
 ```

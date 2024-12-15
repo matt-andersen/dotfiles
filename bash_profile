@@ -9,3 +9,6 @@ alias gco='git checkout'
 alias gpo='git push origin'
 alias gpl='git pull'
 alias gfk='git reset HEAD --hard && git clean -fd'
+
+# Homebrew
+eval "$(/opt/homebrew/bin/brew shellenv)"
